@@ -1,0 +1,191 @@
+.diaporama{
+margin: 0 auto;
+width: 960px;
+height: 500px;
+border: 3px solid #333;
+background-image: url("photo/ffar.PNG");
+animation-name: diapo1;
+animation-duration: 20s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+@keyframes diapo1{
+ 0%{background-image: url(photo/ffar.PNG);}
+ 10%{background-image: url(photo/lor.PNG);}
+ 20%{background-image: url(photo/nol.PNG);}
+ 25%{background-image: url(photo/ffor.PNG);}
+ 30%{background-image: url(photo/nira.PNG);}
+ 35%{background-image: url(photo/nini.PNG);}
+ 40%{background-image: url(photo/alo.PNG);}
+ 45%{background-image: url(photo/ppot.PNG);}
+ 50%{background-image: url(photo/pot.PNG);}
+ 55%{background-image: url(photo/sam.PNG);}
+ 60%{background-image: url(photo/ppris.PNG);}
+ 65%{background-image: url(photo/screenshot_202.PNG);}
+ 70%{background-image: url(photo/screenshot_2021.PNG);}
+ 75%{background-image: url(photo/fille.PNG);}
+ 80%{background-image: url(photo/fil.PNG);}
+ 85%{background-image: url(photo/nor.PNG);}
+ 90%{background-image: url(photo/nol.PNG);}
+ 95%{background-image: url(photo/ppat.PNG);}
+}
+body
+{
+	margin: 0px; 
+	padding: 0px;
+	width: 100%   
+}
+h1{
+color: red;
+font-style: italic;
+text-align: center;
+}
+
+#banner1
+{
+	display: block;
+	background-color: silver;
+	height: 50px;
+	width: 100%;
+}
+#menu
+{
+	min-width: 500px;
+	width: 100%;
+	height:100px;
+	position: relative;
+	background: fuchsia;
+}
+#menu ul
+{
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px
+}
+#menu ul li
+{
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+#menu ul li a
+{
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color:aqua;
+	height: 30px;
+	width: 100px
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+#menu ul li a:hover {
+	color: white;
+	background-color:teal; 
+}
+
+#banner2
+{
+	display: block;
+	background-color: silver;
+	height: 50px;
+	width: 100%;
+}
+#contenuprincipal{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 25px;
+}
+
+#Biographie{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 25px;
+	background-image: url("photo/pot.PNG");
+	background-size: cover;
+	color:white;
+}
+#Carrière{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 20px;
+	background-image: url("photo/sam.PNG");
+	background-size: cover;
+	color: white;
+}
+#vieprivée{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 20px;
+	background-image: url("photo/pat.PNG");
+	background-size: cover;
+	color: white;
+}
+
+#Images{
+	display: block;
+}
+
+#Notes{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 20px;
+	background-image: url("photo/ppat.PNG");
+	background-size: cover;
+	color: white;
+}
+table 
+{ 
+ border-collapse: collapse; 
+ } 
+ td, th /* Mettre une bordure sur les td ET les th */ 
+ { 
+ 	border: 3px solid black; 
+ } 
+ #Distinction{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 25px;
+	background-image: url("photo/far.PNG");
+	background-size: cover;
+	color: white;
+}
+#Discographie{
+	display: block;
+	width: 800px;
+	margin:auto;
+	font-size: 20px;
+	background-image: url("photo/ppris.PNG");
+	background-size: cover;
+	color: white;
+}
+mark {     /* La couleur de fond prend le pas sur celle de toute la page */     
+	background-color: black;     
+	color: white; } 
+#footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: fuchsia;
+	height: 150px;
+	width: 100%;
+}
+#footer ul li
+{
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
